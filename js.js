@@ -49,9 +49,9 @@ class Contenedor {
 
 }
 const contenedor = new Contenedor('data.json');
-contenedor.save({nombre: 'Remera' , precio: '100' , cantidad: '10'})
-contenedor.save({nombre: 'Camisa' , precio: '200' , cantidad: '20'})
-contenedor.save({nombre: 'Pantalon' , precio: '300' , cantidad: '30'})
+
+module.exports = Contenedor;
+
 
 
 
